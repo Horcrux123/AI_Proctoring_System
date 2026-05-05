@@ -1,0 +1,39 @@
+﻿
+> modernize@0.1.0 start
+> react-scripts start
+
+node.exe : (node:11424) 
+[DEP0176] 
+DeprecationWarning: fs.F_OK 
+is deprecated, use 
+fs.constants.F_OK instead
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ((node:1  
+  1424) [D...ts.F_OK inste   
+ ad:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+(Use `node 
+--trace-deprecation ...` to 
+show where the warning was 
+created)
+Cannot find module 'ajv/dist/compile/codegen'
+Require stack:
+- C:\Proctoring System\frontend\node_modules\ajv-keywords\dist\definitions\typeof.js
+- C:\Proctoring System\frontend\node_modules\ajv-keywords\dist\keywords\typeof.js
+- C:\Proctoring System\frontend\node_modules\ajv-keywords\dist\keywords\index.js
+- C:\Proctoring System\frontend\node_modules\ajv-keywords\dist\index.js
+- C:\Proctoring System\frontend\node_modules\schema-utils\dist\validate.js
+- C:\Proctoring System\frontend\node_modules\schema-utils\dist\index.js
+- C:\Proctoring System\frontend\node_modules\webpack-dev-server\lib\Server.js
+- C:\Proctoring System\frontend\node_modules\react-scripts\scripts\start.js
