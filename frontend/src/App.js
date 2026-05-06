@@ -22,7 +22,7 @@ function App() {
         <CheatingLogProvider>
           <ToastContainer />
           <CssBaseline />
-          <RouterProvider router={Router} />
+          <RouterProvider router={Router} future={{ v7_startTransition: true }} />
         </CheatingLogProvider>
       </Provider>
     </ThemeProvider>

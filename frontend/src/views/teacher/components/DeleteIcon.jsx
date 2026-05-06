@@ -35,7 +35,6 @@ const DeleteIcon = ({ examId }) => {
     await deleteExam(examId);
     toast.success('Exam deleted successfully');
     setOpen(false);
-    window.location.reload();
   };
 
   return (
